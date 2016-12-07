@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0901935C1C56405F003AA18D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0901935B1C56405F003AA18D /* main.m */; };
+		0901935F1C56405F003AA18D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0901935E1C56405F003AA18D /* AppDelegate.m */; };
+		090193621C56405F003AA18D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090193611C56405F003AA18D /* ViewController.m */; };
+		090193651C56405F003AA18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090193631C56405F003AA18D /* Main.storyboard */; };
+		090193671C56405F003AA18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090193661C56405F003AA18D /* Assets.xcassets */; };
+		0901936A1C56405F003AA18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090193681C56405F003AA18D /* LaunchScreen.storyboard */; };
+		090193751C564060003AA18D /* JJYXFilmSelectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090193741C564060003AA18D /* JJYXFilmSelectViewTests.m */; };
+		090193801C564060003AA18D /* JJYXFilmSelectViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0901937F1C564060003AA18D /* JJYXFilmSelectViewUITests.m */; };
+		0901939C1C5644DA003AA18D /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 090193991C5644DA003AA18D /* UITableView+SDAutoTableViewCellHeight.m */; };
+		0901939D1C5644DA003AA18D /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0901939B1C5644DA003AA18D /* UIView+SDAutoLayout.m */; };
+		0951E8B41C57579F001D45CD /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951E8B11C57579F001D45CD /* ParallaxHeaderView.m */; };
+		0951E8B51C57579F001D45CD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951E8B31C57579F001D45CD /* UIImage+ImageEffects.m */; };
+		0970C6DA1C5B402F00A98FF1 /* JJZoomSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970C6D91C5B402F00A98FF1 /* JJZoomSelectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090193711C564060003AA18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0901934F1C56405F003AA18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090193561C56405F003AA18D;
+			remoteInfo = JJYXFilmSelectView;
+		};
+		0901937C1C564060003AA18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0901934F1C56405F003AA18D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090193561C56405F003AA18D;
+			remoteInfo = JJYXFilmSelectView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090193571C56405F003AA18D /* JJYXFilmSelectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJYXFilmSelectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0901935B1C56405F003AA18D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0901935D1C56405F003AA18D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0901935E1C56405F003AA18D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		090193601C56405F003AA18D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		090193611C56405F003AA18D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		090193641C56405F003AA18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		090193661C56405F003AA18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090193691C56405F003AA18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0901936B1C56405F003AA18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090193701C564060003AA18D /* JJYXFilmSelectViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJYXFilmSelectViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090193741C564060003AA18D /* JJYXFilmSelectViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJYXFilmSelectViewTests.m; sourceTree = "<group>"; };
+		090193761C564060003AA18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0901937B1C564060003AA18D /* JJYXFilmSelectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJYXFilmSelectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0901937F1C564060003AA18D /* JJYXFilmSelectViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJYXFilmSelectViewUITests.m; sourceTree = "<group>"; };
+		090193811C564060003AA18D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090193981C5644DA003AA18D /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		090193991C5644DA003AA18D /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		0901939A1C5644DA003AA18D /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		0901939B1C5644DA003AA18D /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		0951E8B01C57579F001D45CD /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		0951E8B11C57579F001D45CD /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		0951E8B21C57579F001D45CD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		0951E8B31C57579F001D45CD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		0970C6D81C5B402F00A98FF1 /* JJZoomSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJZoomSelectView.h; sourceTree = "<group>"; };
+		0970C6D91C5B402F00A98FF1 /* JJZoomSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJZoomSelectView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090193541C56405F003AA18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901936D1C564060003AA18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090193781C564060003AA18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0901934E1C56405F003AA18D = {
+			isa = PBXGroup;
+			children = (
+				090193591C56405F003AA18D /* JJYXFilmSelectView */,
+				090193731C564060003AA18D /* JJYXFilmSelectViewTests */,
+				0901937E1C564060003AA18D /* JJYXFilmSelectViewUITests */,
+				090193581C56405F003AA18D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090193581C56405F003AA18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090193571C56405F003AA18D /* JJYXFilmSelectView.app */,
+				090193701C564060003AA18D /* JJYXFilmSelectViewTests.xctest */,
+				0901937B1C564060003AA18D /* JJYXFilmSelectViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090193591C56405F003AA18D /* JJYXFilmSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				0951E8AF1C57579F001D45CD /* ParallaxHeaderView */,
+				090193971C5644DA003AA18D /* SDAutoLayout */,
+				0901935D1C56405F003AA18D /* AppDelegate.h */,
+				0901935E1C56405F003AA18D /* AppDelegate.m */,
+				090193601C56405F003AA18D /* ViewController.h */,
+				090193611C56405F003AA18D /* ViewController.m */,
+				0970C6D71C5B402F00A98FF1 /* ZoomSelectView */,
+				090193631C56405F003AA18D /* Main.storyboard */,
+				090193661C56405F003AA18D /* Assets.xcassets */,
+				090193681C56405F003AA18D /* LaunchScreen.storyboard */,
+				0901936B1C56405F003AA18D /* Info.plist */,
+				0901935A1C56405F003AA18D /* Supporting Files */,
+			);
+			path = JJYXFilmSelectView;
+			sourceTree = "<group>";
+		};
+		0901935A1C56405F003AA18D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0901935B1C56405F003AA18D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		090193731C564060003AA18D /* JJYXFilmSelectViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				090193741C564060003AA18D /* JJYXFilmSelectViewTests.m */,
+				090193761C564060003AA18D /* Info.plist */,
+			);
+			path = JJYXFilmSelectViewTests;
+			sourceTree = "<group>";
+		};
+		0901937E1C564060003AA18D /* JJYXFilmSelectViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0901937F1C564060003AA18D /* JJYXFilmSelectViewUITests.m */,
+				090193811C564060003AA18D /* Info.plist */,
+			);
+			path = JJYXFilmSelectViewUITests;
+			sourceTree = "<group>";
+		};
+		090193971C5644DA003AA18D /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				090193981C5644DA003AA18D /* UITableView+SDAutoTableViewCellHeight.h */,
+				090193991C5644DA003AA18D /* UITableView+SDAutoTableViewCellHeight.m */,
+				0901939A1C5644DA003AA18D /* UIView+SDAutoLayout.h */,
+				0901939B1C5644DA003AA18D /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		0951E8AF1C57579F001D45CD /* ParallaxHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				0951E8B01C57579F001D45CD /* ParallaxHeaderView.h */,
+				0951E8B11C57579F001D45CD /* ParallaxHeaderView.m */,
+				0951E8B21C57579F001D45CD /* UIImage+ImageEffects.h */,
+				0951E8B31C57579F001D45CD /* UIImage+ImageEffects.m */,
+			);
+			path = ParallaxHeaderView;
+			sourceTree = "<group>";
+		};
+		0970C6D71C5B402F00A98FF1 /* ZoomSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				0970C6D81C5B402F00A98FF1 /* JJZoomSelectView.h */,
+				0970C6D91C5B402F00A98FF1 /* JJZoomSelectView.m */,
+			);
+			path = ZoomSelectView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090193561C56405F003AA18D /* JJYXFilmSelectView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090193841C564060003AA18D /* Build configuration list for PBXNativeTarget "JJYXFilmSelectView" */;
+			buildPhases = (
+				090193531C56405F003AA18D /* Sources */,
+				090193541C56405F003AA18D /* Frameworks */,
+				090193551C56405F003AA18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJYXFilmSelectView;
+			productName = JJYXFilmSelectView;
+			productReference = 090193571C56405F003AA18D /* JJYXFilmSelectView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0901936F1C564060003AA18D /* JJYXFilmSelectViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090193871C564060003AA18D /* Build configuration list for PBXNativeTarget "JJYXFilmSelectViewTests" */;
+			buildPhases = (
+				0901936C1C564060003AA18D /* Sources */,
+				0901936D1C564060003AA18D /* Frameworks */,
+				0901936E1C564060003AA18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090193721C564060003AA18D /* PBXTargetDependency */,
+			);
+			name = JJYXFilmSelectViewTests;
+			productName = JJYXFilmSelectViewTests;
+			productReference = 090193701C564060003AA18D /* JJYXFilmSelectViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0901937A1C564060003AA18D /* JJYXFilmSelectViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0901938A1C564060003AA18D /* Build configuration list for PBXNativeTarget "JJYXFilmSelectViewUITests" */;
+			buildPhases = (
+				090193771C564060003AA18D /* Sources */,
+				090193781C564060003AA18D /* Frameworks */,
+				090193791C564060003AA18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0901937D1C564060003AA18D /* PBXTargetDependency */,
+			);
+			name = JJYXFilmSelectViewUITests;
+			productName = JJYXFilmSelectViewUITests;
+			productReference = 0901937B1C564060003AA18D /* JJYXFilmSelectViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0901934F1C56405F003AA18D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sujunjie;
+				TargetAttributes = {
+					090193561C56405F003AA18D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0901936F1C564060003AA18D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 090193561C56405F003AA18D;
+					};
+					0901937A1C564060003AA18D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 090193561C56405F003AA18D;
+					};
+				};
+			};
+			buildConfigurationList = 090193521C56405F003AA18D /* Build configuration list for PBXProject "JJYXFilmSelectView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0901934E1C56405F003AA18D;
+			productRefGroup = 090193581C56405F003AA18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090193561C56405F003AA18D /* JJYXFilmSelectView */,
+				0901936F1C564060003AA18D /* JJYXFilmSelectViewTests */,
+				0901937A1C564060003AA18D /* JJYXFilmSelectViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090193551C56405F003AA18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0901936A1C56405F003AA18D /* LaunchScreen.storyboard in Resources */,
+				090193671C56405F003AA18D /* Assets.xcassets in Resources */,
+				090193651C56405F003AA18D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901936E1C564060003AA18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090193791C564060003AA18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090193531C56405F003AA18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0951E8B51C57579F001D45CD /* UIImage+ImageEffects.m in Sources */,
+				0970C6DA1C5B402F00A98FF1 /* JJZoomSelectView.m in Sources */,
+				090193621C56405F003AA18D /* ViewController.m in Sources */,
+				0901939D1C5644DA003AA18D /* UIView+SDAutoLayout.m in Sources */,
+				0901935F1C56405F003AA18D /* AppDelegate.m in Sources */,
+				0951E8B41C57579F001D45CD /* ParallaxHeaderView.m in Sources */,
+				0901935C1C56405F003AA18D /* main.m in Sources */,
+				0901939C1C5644DA003AA18D /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0901936C1C564060003AA18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090193751C564060003AA18D /* JJYXFilmSelectViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090193771C564060003AA18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090193801C564060003AA18D /* JJYXFilmSelectViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090193721C564060003AA18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090193561C56405F003AA18D /* JJYXFilmSelectView */;
+			targetProxy = 090193711C564060003AA18D /* PBXContainerItemProxy */;
+		};
+		0901937D1C564060003AA18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090193561C56405F003AA18D /* JJYXFilmSelectView */;
+			targetProxy = 0901937C1C564060003AA18D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		090193631C56405F003AA18D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090193641C56405F003AA18D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		090193681C56405F003AA18D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090193691C56405F003AA18D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090193821C564060003AA18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		090193831C564060003AA18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090193851C564060003AA18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJYXFilmSelectView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.JJYXFilmSelectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		090193861C564060003AA18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JJYXFilmSelectView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.JJYXFilmSelectView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		090193881C564060003AA18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJYXFilmSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.JJYXFilmSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJYXFilmSelectView.app/JJYXFilmSelectView";
+			};
+			name = Debug;
+		};
+		090193891C564060003AA18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJYXFilmSelectViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.JJYXFilmSelectViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJYXFilmSelectView.app/JJYXFilmSelectView";
+			};
+			name = Release;
+		};
+		0901938B1C564060003AA18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJYXFilmSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.JJYXFilmSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJYXFilmSelectView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0901938C1C564060003AA18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJYXFilmSelectViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.JJYXFilmSelectViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJYXFilmSelectView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090193521C56405F003AA18D /* Build configuration list for PBXProject "JJYXFilmSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090193821C564060003AA18D /* Debug */,
+				090193831C564060003AA18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090193841C564060003AA18D /* Build configuration list for PBXNativeTarget "JJYXFilmSelectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090193851C564060003AA18D /* Debug */,
+				090193861C564060003AA18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090193871C564060003AA18D /* Build configuration list for PBXNativeTarget "JJYXFilmSelectViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090193881C564060003AA18D /* Debug */,
+				090193891C564060003AA18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0901938A1C564060003AA18D /* Build configuration list for PBXNativeTarget "JJYXFilmSelectViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0901938B1C564060003AA18D /* Debug */,
+				0901938C1C564060003AA18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0901934F1C56405F003AA18D /* Project object */;
+}
